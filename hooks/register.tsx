@@ -76,14 +76,14 @@ async function apply($: EngineInterface) {
 export const register: Register = on => {
   on('session.start', async ($, e, next) => {
     await $.command.register({
-      name: 'custom-theme',
-      description: 'Grimoire monochrome theme: /custom-theme on | off',
+      name: 'grimoire',
+      description: 'Grimoire monochrome theme: /grimoire on | off',
     })
     if ((await $.store.get('off')) !== true) await apply($)
     return next(e)
   })
 
-  on('command.run', { command: 'custom-theme' }, async ($, e) => {
+  on('command.run', { command: 'grimoire' }, async ($, e) => {
     const arg = e.args.trim().toLowerCase()
     if (arg === 'off') {
       await $.store.set('off', true)

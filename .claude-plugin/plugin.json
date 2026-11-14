@@ -1,7 +1,7 @@
 {
   "name": "custom-theme",
-  "version": "0.1.0",
-  "description": "Grimoire: a quiet monochrome ink theme with an anime manga feel. /custom-theme on|off",
+  "version": "0.2.0",
+  "description": "Grimoire: a quiet monochrome ink theme with an anime manga feel. /grimoire on|off",
   "license": "MIT",
   "author": {
     "name": "Anurag123rk"

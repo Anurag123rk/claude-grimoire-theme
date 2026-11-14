@@ -23,8 +23,8 @@ claude plugin install custom-theme --marketplace Anurag123rk/claude-grimoire-the
 
 ## Use
 
-- `/custom-theme` or `/custom-theme on` — turn the theme on
-- `/custom-theme off` — turn it off (remembered across sessions)
+- `/grimoire` or `/grimoire on` — turn the theme on
+- `/grimoire off` — turn it off (remembered across sessions)
 
 Dark-only by design. Themes draw in the desktop and mobile apps; the terminal
 and editors keep their own look. Motion stops when reduced motion is on.
