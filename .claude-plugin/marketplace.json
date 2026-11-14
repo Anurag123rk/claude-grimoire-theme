@@ -1,0 +1,5 @@
+{
+  "name": "grimoire-theme",
+  "owner": { "name": "Anurag123rk" },
+  "plugins": [{ "name": "custom-theme", "source": "./" }]
+}
